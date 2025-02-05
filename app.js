@@ -1,9 +1,9 @@
 let listaDeNumerosSorteados = [];
-let numerolimite = (50);
+let numeroLimite = (50);
 function gerarNumeroAleatorio() {
-let numeroEscolhido=parseInt(Math.random() * numerolimite + 1);
+let numeroEscolhido=parseInt(Math.random() * numeroLimite + 1);
 let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length
-if (quantidadeDeElementosNaLista == numerolimite){
+if (quantidadeDeElementosNaLista == numeroLimite){
     listaDeNumerosSorteados=[];
 }
 if (listaDeNumerosSorteados.includes (numeroEscolhido)){
